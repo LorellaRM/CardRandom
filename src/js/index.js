@@ -1,10 +1,23 @@
-/* eslint-disable */
+// let card = document.querySelector("card");
 
-import "../assets/img/rigo-baby.jpg";
-import "../assets/img/4geeks.ico";
-//import 'breathecode-dom'; //DOM override to make JS easier to use
-import "../style/index.scss";
+// let buttonEx = document.querySelector("buttonRandom");
+// buttonEx.addEventListener("click", () => {
+//   let theSymbolT = document.querySelector("symbolTop").innerHTML;
+//   let theSymbolB = document.querySelector("symbolBt").innerHTML;
+//   let theNumb = document.querySelector("number").innerHTML;
 
-window.onload = function() {
-  console.log("Hello Rigo from the console!");
-};
+//   if (
+//     theSymbolT === "&hearts;" ||
+//     theSymbolT === "&diams;" ||
+//     theSymbolB === "&hearts;" ||
+//     theSymbolB === "&diams;"
+//   ) {
+//     card.classList.remove("card-black");
+//     card.classList.add("card-red");
+//   } else {
+//     card.classList.remove("card-red");
+//     card.classList.add("card-black");
+//   }
+
+//   console.log("New card shuffled");
+// });
